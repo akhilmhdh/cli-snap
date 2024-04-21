@@ -1,0 +1,10 @@
+[[tests]]
+commands = ["echo 'Hello'"]
+id = "hello-world"
+
+[[tests]]
+commands = ["echo 'test 2'", "echo 'second hello'"]
+id = "test-2"
+
+[config]
+snapshot_directory = "./snaps"
