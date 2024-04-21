@@ -10,7 +10,10 @@ homepage = "https://github.com/akhilmhdh/cli-snap"
 repository = "https://github.com/akhilmhdh/cli-snap"
 keywords = ["cli", "snapshot-testing"]
 categories = ["command-line-utilities"]
-
+exclude = [
+    "docs/*",
+    "example/*",
+]
 # See more keys and their definitions at https://doc.rust-lang.org/cargo/reference/manifest.html
 
 [dependencies]
