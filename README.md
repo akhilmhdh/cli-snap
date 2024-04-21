@@ -35,7 +35,7 @@ snapshot_directory = "./snaps"
 cli-snap --config <directory where you have saved toml>
 ```
 
-[output image](./docs/output.png)
+![output image](./docs/output.png)
 
 3. To update snapshots, run the command.
 
